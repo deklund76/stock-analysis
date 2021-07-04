@@ -6,3 +6,10 @@ This repository is an analysis of a handful of green energy stocks. It contains 
 
 ## Results
 
+![2017 results & runtime](https://github.com/deklund76/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png)
+
+![2018 results & runtime](https://github.com/deklund76/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
+
+![2017 results & runtime (refactored)](https://github.com/deklund76/stock-analysis/blob/main/Resources/VBA_Challenge_2017_Refactored.png)
+
+![2018 results & runtime (refactored)](https://github.com/deklund76/stock-analysis/blob/main/Resources/VBA_Challenge_2018_Refactored.png)
