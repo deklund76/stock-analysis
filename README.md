@@ -28,7 +28,7 @@ Why did the refactored script perform so much better? Let's look at the code.
 
 ![Refactored VBA Script](https://github.com/deklund76/stock-analysis/blob/main/Resources/VBA_Script_Refactored.png)
 
-The original script had both nested for loops and conditionals. It was going through every row in the data sheet once _for each different stock_ we only had 12 stocks to look through. In a real world scenario with hundreds or even thousands of stocks trading on the market, this small difference would have ground our program to a screeching halt. By using an if statement to increment our ticker index, we were able to get rid of the outer for loop and improve the program's efficiency _exponentially._ 
+The original script had both nested for loops and conditionals. It was going through every row in the data sheet once _for each different stock_ we only had 12 stocks to look through. In a real world scenario with hundreds or even thousands of stocks trading on the market, this small difference would have ground our program to a screeching halt. By using an if statement to increment our ticker index, we were able to get rid of the outer for loop and greatly improve the program's efficiency.
 
 So what are the pros and cons of refactoring? Clearly, in this case, refactoring made the code far more efficient, improving the run-time by a factor of 3 while also adding scripts that had been contained in seperate modules making for fewer modules to wade through. On the other hand, we spent valuable coding time to save roughly _2 tenths of a second_ on each use. 
 
